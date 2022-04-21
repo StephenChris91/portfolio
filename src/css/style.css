@@ -1,0 +1,60 @@
+
+body{
+    background-color: #f8f6f6;
+}
+
+.primary-btn{
+    background: #048970;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.dark-btn{
+    background: rgb(21, 21, 21);
+    padding: 15px 25px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.red-btn{
+    background: rgb(255, 0, 0);
+    padding: 15px 25px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.yellow-btn{
+    background: rgb(186, 131, 2);
+    padding: 15px 25px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #252525;
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.social-media-icons a svg{
+    font-size: 1.5rem;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #048970;
+}
