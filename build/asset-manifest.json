@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.bb252c09.css",
+    "main.js": "/portfolio/static/js/main.7e630a66.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/header-bg.png": "/portfolio/static/media/header-bg.4ddaaf440b51b4fb2039.png",
+    "static/media/projectopia.PNG": "/portfolio/static/media/projectopia.d87940dbf2c4c2dfbb5c.PNG",
+    "static/media/quote.PNG": "/portfolio/static/media/quote.602db2c3b6c127874f99.PNG",
+    "static/media/movie.PNG": "/portfolio/static/media/movie.387abfb7a1e85e54b6d9.PNG",
+    "static/media/verifly.PNG": "/portfolio/static/media/verifly.b5025378b87af4f70cf7.PNG",
+    "static/media/Colored Shapes.svg": "/portfolio/static/media/Colored Shapes.583975031c69fc9f68a6.svg",
+    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/portfolio/index.html",
+    "main.bb252c09.css.map": "/portfolio/static/css/main.bb252c09.css.map",
+    "main.7e630a66.js.map": "/portfolio/static/js/main.7e630a66.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb252c09.css",
+    "static/js/main.7e630a66.js"
+  ]
+}
