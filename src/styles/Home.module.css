@@ -31,6 +31,19 @@
   margin-left: 250px;
 }
 
+@media (max-width: 480px) {
+  .gridContainer {
+    /* styles for mobile devices */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+}
+
+
 .profileImage{
   border-radius: 20px 0 20px 0;
   margin-top: 20px;
@@ -72,7 +85,9 @@
 }
 
 /* Second Grid Container */
-
+.firstCol{
+ border: 3px solid red;
+}
 
 
 

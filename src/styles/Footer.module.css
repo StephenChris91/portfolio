@@ -5,7 +5,7 @@
   align-items: center;
   margin: auto;
   gap: 1;
-  margin-top: 20px;
+  margin-top: 80px;
 }
 
 .footerColumn2 {
@@ -17,7 +17,7 @@
 .footerColumn2 a {
     text-decoration: none;
     text-decoration: none;
-    color: var(--text-color)
+    color: var(--text-color);
 }
 
 

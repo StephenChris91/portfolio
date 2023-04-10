@@ -1,8 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "@/styles/Home.module.css";
+import styles from "../styles/Home.module.css";
 import { useState, useEffect } from "react";
-import { useSpring, animated } from "react-spring";
 
 //components
 import GridItem from "@/components/GridItem";
@@ -29,7 +28,7 @@ export default function Home() {
             gridRowEnd={2}
             gridColumnStart={3}
             gridColumnEnd={5}
-            className={styles.detailsContainer}
+            className={styles.firstCol}
           >
             <h1>this is a title</h1>
           </GridItem>
@@ -38,6 +37,7 @@ export default function Home() {
             gridRowEnd={2}
             gridColumnStart={1}
             gridColumnEnd={3}
+            background="linear-gradient(115.38deg, rgba(255, 255, 255, 0.075) -20.68%, rgba(255, 255, 255, 0.0125) 99.62%)"
           >
             <div className={styles.profileContainer}>
               <Image
@@ -68,30 +68,35 @@ export default function Home() {
             gridRowEnd={3}
             gridColumnStart={1}
             gridColumnEnd={2}
+            background="linear-gradient(115.38deg, rgba(255, 255, 255, 0.075) -20.68%, rgba(255, 255, 255, 0.0125) 99.62%)"
           />
           <GridItem
             gridRowStart={2}
             gridRowEnd={3}
             gridColumnStart={2}
             gridColumnEnd={4}
+            background="linear-gradient(115.38deg, rgba(255, 255, 255, 0.075) -20.68%, rgba(255, 255, 255, 0.0125) 99.62%)"
           />
           <GridItem
             gridRowStart={3}
             gridRowEnd={4}
             gridColumnStart={1}
             gridColumnEnd={3}
+            background="linear-gradient(115.38deg, rgba(255, 255, 255, 0.075) -20.68%, rgba(255, 255, 255, 0.0125) 99.62%)"
           />
           <GridItem
             gridRowStart={2}
             gridRowEnd={3}
             gridColumnStart={4}
             gridColumnEnd={5}
+            background="linear-gradient(115.38deg, rgba(255, 255, 255, 0.075) -20.68%, rgba(255, 255, 255, 0.0125) 99.62%)"
           />
           <GridItem
             gridRowStart={3}
             gridRowEnd={4}
             gridColumnStart={3}
             gridColumnEnd={5}
+            background="linear-gradient(115.38deg, rgba(255, 255, 255, 0.075) -20.68%, rgba(255, 255, 255, 0.0125) 99.62%)"
           />
         </div>
       </div>
