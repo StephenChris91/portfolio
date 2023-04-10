@@ -6,6 +6,7 @@ const GridItem = ({
   gridRowEnd,
   gridColumnStart,
   gridColumnEnd,
+  children,
 }) => {
   const [animation, setAnimation] = useSpring(() => ({
     to: { transform: "translateY(0px)" },
@@ -24,7 +25,9 @@ const GridItem = ({
         gridColumnEnd,
       }}
       className={styles.gridItem}
-    />
+    >
+      {children}
+    </animated.div>
   );
 };
 

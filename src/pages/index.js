@@ -29,15 +29,41 @@ export default function Home() {
             gridRowEnd={2}
             gridColumnStart={3}
             gridColumnEnd={5}
-          />
+            className={styles.detailsContainer}
+          >
+            <h1>this is a title</h1>
+          </GridItem>
           <GridItem
             gridRowStart={1}
             gridRowEnd={2}
             gridColumnStart={1}
             gridColumnEnd={3}
-          />
+          >
+            <div className={styles.profileContainer}>
+              <Image
+                src="/profile.jpg"
+                alt="profile"
+                height={200}
+                width={200}
+                className={styles.profileImage}
+              />
+              <div className={styles.profileInfo}>
+                <p className={styles.profileTitle}>FRONTEND DEVELOPER</p>
+                <h2 className={styles.profileName}>STEPHEN CHRIS</h2>
+                <p className={styles.details}>
+                  I am a Frontend Developer based in United Kingdom
+                </p>
+              </div>
+              <Image
+                src="/button.png"
+                alt="profile button"
+                height={35}
+                width={35}
+                className={styles.profileButton}
+              />
+            </div>
+          </GridItem>
           <GridItem
-            backgroundColor="#7D977E"
             gridRowStart={2}
             gridRowEnd={3}
             gridColumnStart={1}
@@ -67,7 +93,6 @@ export default function Home() {
             gridColumnStart={3}
             gridColumnEnd={5}
           />
-          {isLoaded && [...Array()].map((_, index) => <GridItem key={index} />)}
         </div>
       </div>
     </>
