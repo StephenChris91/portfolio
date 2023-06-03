@@ -1,10 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# portfolio
 
-## Theme_Pure
-
-repo link 👇👇👇:
-
-```bash
-https://github.com/ThemePure/gencio-next-js.git
-
-```
+Portfolio Website built with Nextjs, React Spring, Framer Motion &amp; Styled Components
