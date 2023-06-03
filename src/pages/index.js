@@ -28,9 +28,46 @@ export default function Home() {
             gridRowEnd={2}
             gridColumnStart={3}
             gridColumnEnd={5}
-            className={styles.firstCol}
+            className={styles.credentials}
           >
-            <h1>this is a title</h1>
+            <div>
+              <div className={styles.scrollText}>
+                <p>
+                  LATEST WORK AND <span> FEATURES</span>*LATEST WORK AND
+                  <span> FEATURES*</span>LATEST WORK AND <span> FEATURES</span>*
+                </p>
+              </div>
+              <div className={styles.credentialsInner}>
+                <div className={styles.credentialsDetails}>
+                  <div className={styles.credentialsImg}></div>
+                  <div className={styles.more}>
+                    <p>MORE ABOUT ME</p>
+                    <h3>Credentials</h3>
+                  </div>
+                  <Image
+                    src="/button.png"
+                    alt="profile"
+                    height={30}
+                    width={30}
+                    className={styles.credentialsBtn}
+                  />
+                </div>
+                <div className={styles.credentialsDetails}>
+                  <div className={styles.credentialsImg}></div>
+                  <div className={styles.more}>
+                    <p>SHOWCASE</p>
+                    <h3>Projects</h3>
+                  </div>
+                  <Image
+                    src="/button.png"
+                    alt="profile"
+                    height={30}
+                    width={30}
+                    className={styles.credentialsBtn}
+                  />
+                </div>
+              </div>
+            </div>
           </GridItem>
           <GridItem
             gridRowStart={1}
@@ -69,7 +106,22 @@ export default function Home() {
             gridColumnStart={1}
             gridColumnEnd={2}
             background="linear-gradient(115.38deg, rgba(255, 255, 255, 0.075) -20.68%, rgba(255, 255, 255, 0.0125) 99.62%)"
-          />
+          >
+            <div className={styles.blogContainer}>
+              <div className={styles.blogInfo}></div>
+              <div className={styles.blogInfodDetails}>
+                <p>BLOG</p>
+                <h3>Articles</h3>
+              </div>
+              <Image
+                src="/button.png"
+                alt="profile"
+                height={30}
+                width={30}
+                className={styles.blogBtn}
+              />
+            </div>
+          </GridItem>
           <GridItem
             gridRowStart={2}
             gridRowEnd={3}
