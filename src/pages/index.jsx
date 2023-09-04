@@ -7,7 +7,7 @@ import HomeSix from "../components/homes/home-6";
 const Home = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Gencio"} />
+      <SEO pageTitle={"Stephen Chris"} />
        <HomeSix />
     </Wrapper>
   );

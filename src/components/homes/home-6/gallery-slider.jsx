@@ -3,21 +3,21 @@ import { Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const gallery_one = [
-  "/assets/img/gallery/mp-gl-1.jpg",
-  "/assets/img/gallery/mp-gl-2.jpg",
-  "/assets/img/gallery/mp-gl-3.jpg",
-  "/assets/img/gallery/mp-gl-4.jpg",
-  "/assets/img/gallery/mp-gl-5.jpg",
-  "/assets/img/gallery/mp-gl-6.jpg",
+  "/assets/img/portfolio/para.png",
+  "/assets/img/portfolio/support.png",
+  "/assets/img/portfolio/born.png",
+  "/assets/img/portfolio/support-2.png",
+  "/assets/img/portfolio/born-3.png",
+  "/assets/img/portfolio/support-4.png",
 ];
 
 const gallery_two = [
-  "/assets/img/gallery/mp-gl-7.jpg",
-  "/assets/img/gallery/mp-gl-8.jpg",
-  "/assets/img/gallery/mp-gl-9.jpg",
-  "/assets/img/gallery/mp-gl-10.jpg",
-  "/assets/img/gallery/mp-gl-11.jpg",
-  "/assets/img/gallery/mp-gl-12.jpg",
+  "/assets/img/portfolio/support-3.png",
+  "/assets/img/portfolio/born-2.png",
+  "/assets/img/portfolio/support-4.png",
+  "/assets/img/portfolio/born.png",
+  "/assets/img/portfolio/born-3.png",
+  "/assets/img/portfolio/support-2.png",
 ];
 
 const setting_1 = {

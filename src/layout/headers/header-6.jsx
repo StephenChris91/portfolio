@@ -54,10 +54,10 @@ const HeaderSix = () => {
                       </form>
                     </div>
 
-                    <div className="tp-header-nav tp-header-nav-black" onClick={() => setIsActive(true)}>
+                    {/* <div className="tp-header-nav tp-header-nav-black" onClick={() => setIsActive(true)}>
                       <span></span>
                       <span></span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -65,7 +65,7 @@ const HeaderSix = () => {
           </div>
         </div>
       </header>
-      <Sidebar isActive={isActive} setIsActive={setIsActive} />
+      {/* <Sidebar isActive={isActive} setIsActive={setIsActive} /> */}
     </>
   );
 };

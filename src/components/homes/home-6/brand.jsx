@@ -7,27 +7,27 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 const brands_data = [
     {
       id: 1,
-      img: "/assets/img/brand/mp-brand-1.png",
+      img: "/assets/img/brand/react.png",
     },
     {
       id: 2,
-      img: "/assets/img/brand/mp-brand-2.png",
+      img: "/assets/img/brand/express.png",
     },
     {
       id: 3,
-      img: "/assets/img/brand/mp-brand-3.png",
+      img: "/assets/img/brand/mongodb.png",
     },
     {
       id: 4,
-      img: "/assets/img/brand/mp-brand-4.png",
+      img: "/assets/img/brand/nodejs.png",
     },
     {
       id: 5,
-      img: "/assets/img/brand/mp-brand-5.png",
+      img: "/assets/img/brand/tailwind.png",
     },
     {
       id: 6,
-      img: "/assets/img/brand/mp-brand-3.png",
+      img: "/assets/img/brand/nextjs.png",
     },
     
   ];
@@ -76,7 +76,7 @@ const Brand = () => {
                     {
                         brands_data.map((item, i)  => 
                         <SwiperSlide key={i} className="tp-it-brand-item swiper-slide">
-                            <img src={item.img} alt="theme-pure" />
+                            <img src={item.img} alt="tech-stack" />
                         </SwiperSlide>
                         
                         )
@@ -84,11 +84,11 @@ const Brand = () => {
 
                 </Swiper>
             </div>
-            <div className="mp-circle-bnt-wrapper pt-120 pb-60">
+            {/* <div className="mp-circle-bnt-wrapper pt-120 pb-60">
                 <div className="mp-circle-img text-center">
-                    <img src="/assets/img/cta/mp-black-circle.png" alt="theme-pure" />
+                    <img src="/logoDark.png" alt="logo-dark" />
                 </div>
-            </div>
+            </div> */}
         </div> 
         </>
     );

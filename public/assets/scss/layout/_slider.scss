@@ -303,7 +303,12 @@
     margin: 20px 0;
 }
 .mp-hero-area {
-    height: 750px;
+    height: 700px;
+    padding: 5px;
+
+    @media #{$xs} {
+        height: auto;
+    }
 
     .summary{
         position: relative;
@@ -312,15 +317,19 @@
         margin: auto;
         text-align: left;
         width: 100%;
-        padding: 50px;
+        padding: 50px 30px;
         // span{
         //     color: #1fc2ef;
         //     padding: 5px;
         //     background-color: #000;
         // }
     }
+    @media #{$sm} {
+        padding: 20px 10px;
+    }
     @media #{$xs} {
-        padding-bottom: 60px;
+        // padding-bottom: 60px;
+        padding: 10px;
     }
 }
 .ptg-sldider-dot {
@@ -374,10 +383,11 @@
 
 .mp-marque-slider {
     position: absolute;
-    bottom: 0px;
+    bottom: 20px;
     width: 100%;
     @media #{$xs} {
-        bottom: -60px;
+        // bottom: -60px;
+        bottom: -25px;
     }
 
     & p {

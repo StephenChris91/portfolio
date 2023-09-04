@@ -71,28 +71,6 @@ const HeroBanner = () => {
                                 </SwiperSlide>
                             )
                         }
-                        {/* <div className="swiper-wrapper"> */}
-
-                        {/* <div className="swiper-slide">
-                            <p>Hilixio Dowson <span> - </span></p>
-                        </div>
-
-                        <div className="swiper-slide">
-                            <p>Hilixio Dowson <span>-</span></p>
-                        </div>
-                        
-                        <div className="swiper-slide">
-                            <p>Hilixio Dowson <span>-</span></p>
-                        </div>
-
-                        <div className="swiper-slide">
-                            <p>Hilixio Dowson <span>-</span></p>
-                        </div> */}
-
-                        {/* </div> */}
-
-
-
                     </Swiper>
                 </div>
             </div>

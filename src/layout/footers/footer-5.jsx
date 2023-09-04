@@ -5,7 +5,7 @@ import React from 'react';
 
 // copy right text
 const footer_content = {
-    copy_right_info:  <> Copyright & Design By <a href="#">@Theme Pure</a> - {new Date().getFullYear()} </>,
+    copy_right_info:  <> Copyright & Design By <a href="#">Stephen Chris</a> - {new Date().getFullYear()} </>,
   };
 
 const { copy_right_info } = footer_content;
@@ -30,10 +30,10 @@ const FooterFive = () => {
                             <div className="col-lg-7 col-12">
                                 <div className="mp-footer-ct-btns d-md-flex justify-content-lg-end">
                                     <div className="mp-footer-mail mr-30 mb-30 ">
-                                        <a  href="mailto:info@gencio.com" className="ft-mail-btn d-inline-block">info@gencio.com</a>
+                                        <a  href="mailto:info@gencio.com" className="ft-mail-btn d-inline-block">stephenchriscodes@gmail.com</a>
                                     </div>
                                     <div className="mp-footer-phone mb-30">
-                                        <a href="tel:78568065900" className="ft-phone-btn d-inline-block">786 122 222 00</a>
+                                        <a href="tel:78568065900" className="ft-phone-btn d-inline-block">0(+44)7765743023</a>
                                     </div>
                                 </div>
                             </div>
@@ -51,9 +51,9 @@ const FooterFive = () => {
                             <div className="col-md-4 d-none d-md-block">
                                 <div className="tp-footer-menu mp-footer-menu text-end">
                                     <ul>
-                                        <li><a href="#">Fb</a> </li>
-                                        <li><a href="#">Tw</a></li>
-                                        <li><a href="#">Be.</a></li>
+                                        {/* <li><a href="#">Fb</a> </li> */}
+                                        <li><a href="https://twitter.com/iamstephenchris">Tw</a></li>
+                                        {/* <li><a href="#">Be.</a></li> */}
                                         <li><a href="#">Ln.</a></li>
                                     </ul>
                                 </div>

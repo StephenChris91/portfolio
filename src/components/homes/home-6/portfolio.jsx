@@ -5,25 +5,25 @@ import Tilt from 'react-parallax-tilt';
 const portfolio_data =[
     {
         id: 1,
-        title: "Eco Dominson App",
-        hover_img: "/assets/img/portfolio/mp-pt-img.jpg",
+        title: "Paragon Hospital",
+        hover_img: "/assets/img/portfolio/para.png ",
         cls: "mp-portfolio-btn",
     },
     {
         id: 2,
-        title: "MicDrop Agency Website",
-        hover_img: "/assets/img/portfolio/mp-pt-img-2.jpg",
+        title: "Born At Midknight",
+        hover_img: "/assets/img/portfolio/born.png",
         cls: "mp-portfolio-btn",
     },
     {
         id: 3,
-        title: "Atypikal Crypto",
-        hover_img: "/assets/img/portfolio/mp-pt-img-3.jpg",
+        title: "Supportifly NG",
+        hover_img: "/assets/img/portfolio/support.png",
         cls: "mp-portfolio-tag",
     },
     {
         id: 4,
-        title: "Gionix NFT Marketplace",
+        title: "Projectopia",
         hover_img: "/assets/img/portfolio/mp-pt-img-4.jpg",
         cls: "mp-portfolio-tag",
     },
