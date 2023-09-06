@@ -8,24 +8,32 @@ const portfolio_data =[
         title: "Paragon Hospital",
         hover_img: "/assets/img/portfolio/para.png ",
         cls: "mp-portfolio-btn",
+        link: "https://www.paragonclinicsandimaging.com/",
+        stack: "React, Sass"
     },
     {
         id: 2,
         title: "Born At Midknight",
         hover_img: "/assets/img/portfolio/born.png",
         cls: "mp-portfolio-btn",
+        link: "https://www.bornatmidknight.com/",
+        stack: "React, Chakra-ui"
     },
     {
         id: 3,
         title: "Supportifly NG",
         hover_img: "/assets/img/portfolio/support.png",
         cls: "mp-portfolio-tag",
+        link: "https://supportifly.ng/",
+        stack: "Nextjs, Tailwind, CSS, Sanity"
     },
     {
         id: 4,
         title: "Projectopia",
         hover_img: "/assets/img/portfolio/mp-pt-img-4.jpg",
         cls: "mp-portfolio-tag",
+        link: "https://projectopia.stechad.com/",
+        stack: "React, CSS, Firebase, Tailwind"
     },
 ]
 
@@ -50,14 +58,13 @@ const Portfolio = () => {
                             gyroscope={true}
                             >
                             <img src={item.hover_img} alt={item.title} />
-                            <a href="#" className="mp-pt-btn"><i className="fal fa-long-arrow-right"></i></a>
+                            <a href={`${item.link}`} className="mp-pt-btn"><i className="fal fa-long-arrow-right"></i></a>
                             </Tilt>
                         </div>
                     </div>
                     <div className={`${item.cls} wow tpfadeUp`}>
-                        <span><a href="#">Interaction</a></span>
-                        <span>,</span>
-                        <span><a href="#">App Design</a></span>
+                        <span><a href="#">{item.stack}</a></span>
+                        
                     </div>
                 </div>
                     )
