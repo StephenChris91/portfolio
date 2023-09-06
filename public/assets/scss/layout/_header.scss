@@ -2393,7 +2393,13 @@
     }
 }
 
+.logo-text {
+    font-size: 20px;
 
+    @media #{$xs}{
+        font-size: 10px
+    }
+}
 
 
 .da-header-cta-btn {

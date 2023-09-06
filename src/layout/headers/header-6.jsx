@@ -23,7 +23,7 @@ const HeaderSix = () => {
                 <div className="col-xl-4 col-6">
                   <div className="logo">
                     <Link href="/">
-                     <h2>Stephen Chris</h2>
+                     <h2 className="logo-text">Stephen Chris</h2>
                     </Link>
                   </div>
                 </div>
