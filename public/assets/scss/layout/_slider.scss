@@ -323,14 +323,15 @@
         //     padding: 5px;
         //     background-color: #000;
         // }
+        @media #{$sm} {
+            padding: 20px 3px;
+        }
+        @media #{$xs} {
+            // padding-bottom: 60px;
+            padding: 10px 2px;
+        }
     }
-    @media #{$sm} {
-        padding: 20px 3px;
-    }
-    @media #{$xs} {
-        // padding-bottom: 60px;
-        padding: 10px 2px;
-    }
+    
 }
 .ptg-sldider-dot {
     position: absolute;
