@@ -27,7 +27,7 @@ const MpCtaArea = () => {
                         </div>
                     </div>
                     <div className="col-12 wow tpfadeUp">
-                        <a href="#" className="tp-black-bg-btn border-radious-none">Download CV
+                        <a href="https://mega.nz/file/QFEmRKyT#TYV1JIUY4JR08JS5m8saZ9nEmxt0QkSvmqh1dRGhWjE" className="tp-black-bg-btn border-radious-none">Download CV
                             <span>
                                 <i className="fal fa-long-arrow-right"></i>
                                 <i className="fal fa-long-arrow-right"></i>
